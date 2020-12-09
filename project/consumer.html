@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>消费者</title>
+		<link href="../css/consumer.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="top">
+			<p>食品溯源平台</p>
+			<font color="white" class="consumer">消费者</font>
+		</div>
+		<div class="center">
+			<div class="search">
+				<div class="row">
+				</div>
+				<font size="4" color="#000000" id="c">溯源码搜索</font>
+				<hr id="h">
+				<div id="s_content">
+					请输入您要查询的溯源码
+					<form>
+						<textarea id="content">
+		                </textarea>
+						<input type="button" value="查询" name="select" id="select">
+					</form>
+				</div>
+			</div>
+			<div class="result">
+				<font class="mes">以下是溯源码为{{.}}的溯源信息</font>
+				<a href="entry.html">退出</a>
+				<div class="vege_mes">
+					蔬菜基本信息
+					<br>
+					<font class="cons">{{.}}</font>
+				</div>
+				<div class="veget_circu_mes">
+					蔬菜流通信息
+					<br>
+					<font class="cons">{{.}}</font>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

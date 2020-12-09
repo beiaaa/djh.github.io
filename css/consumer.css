@@ -1,0 +1,155 @@
+body {
+	height: 90vh;
+	background-color: #E3E3E3;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.top {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 50px;
+	color: white;
+	background-color: #000000;
+	z-index: 11;
+	font-size: 25px;
+}
+p{
+	margin-left: 20px;
+}
+.consumer {
+	margin-left: 1250px;
+	position:relative;
+}
+
+.center {
+	width: 100%;
+	height: 100%;
+	background-color: #E3E3E3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search {
+	width: 310px;
+	height: 310px;
+	border: 1px dashed #888888;
+	background-color: white;
+	margin-left: 150px;
+     
+}
+
+.row {
+	width: 311px;
+	height: 2px;
+	border: 1px solid black;
+	background-color: black;
+	margin-top: -2px;
+	margin-left: -1px;
+	border-radius: 3px 3px 0 0;
+}
+
+#c {
+	margin-left: 10px;
+	line-height: 100px;
+}
+
+#h {
+	width: 280px;
+	margin-left: 15px;
+	border: dashed #000000 0.5px;
+	margin-top: -20px;
+
+}
+
+#s_content {
+	margin-left: 33px;
+	margin-top: 40px;
+	color: #666666;
+}
+
+#content {
+	width: 240px;
+	height: 80px;
+	margin-top: 5px;
+	border-radius: 3px;
+	border: 1px solid black;
+}
+
+input {
+	margin-top: 20px;
+	width: 240px;
+	height: 30px;
+	margin-left: 1px;
+	background-color: black;
+	border-radius: 3px;
+	color: white;
+	border: black;
+	transition: all ease 1s;
+}
+
+input:hover {
+	box-shadow: 0px 0px 10px #666666;
+}
+
+.result {
+	width: 800px;
+	height: 640px;
+	border: 1px solid white;
+	background-color: white;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.mes {
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #666666;
+}
+
+.vege_mes {
+	margin-top: 20px;
+	width: 600px;
+	height: 260px;
+	border-bottom: dashed 1px black;
+	margin-left: 100px;
+}
+
+.cons {
+	margin-left: 35px;
+}
+
+.veget_circu_mes {
+	margin-top: 20px;
+	width: 600px;
+	height: 260px;
+	margin-left: 100px;
+}
+
+a {
+	text-decoration: none;
+	width: 70px;
+	height: 30px;
+	border: 1px solid #888888;
+	background-color: #000000;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 800px;
+	margin-top: -32px;
+	border-radius: 3px;
+	transition: all ease 1s;
+}
+
+a:hover {
+	width: 70px;
+	height: 40px;
+	border: 1px solid black;
+}

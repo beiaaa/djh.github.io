@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>超市</title>
+		<link href="../css/login.css" type="text/css" rel="stylesheet">
+		<style type="text/css">
+			.middle{
+				width: 100%;
+				height: 380px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.login{
+				width: 400px;
+				height: 340px;
+				border: 1px solid white;
+				margin-right: 0px;
+				background-color: white;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border-radius:5% ;
+				transition: all ease 1.5s;
+			}
+			#one{
+			  margin-top: 20px;
+			  position: fixed;
+			  margin-left: 120px;
+			}
+			#veg_message{
+				margin-top: 50px;
+				height: 30px;
+				width: 270px;
+				border-radius: 5px;
+				border: black 1px solid;
+			}
+			#quality{
+				height: 30px;
+				width: 270px;
+				border-radius: 5px;
+				border: black 1px solid;
+			}
+			.login p{
+				position: fixed;
+				margin-top: -150px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<font>食品溯源平台</font>
+		</div>
+			<div class="center">
+			<div class="middle">
+			<div class="login">
+			<p><strong>蔬菜食品质量{{.}}添加信息界面</strong></p>	
+			<form action="" method="post">
+			<input type="text" name="veg_message" id="veg_message" placeholder=" veg_message"><br>
+			<input type="text" name="quality" id="quality" placeholder=" quality"><br>
+			<input type="button" value="添加" id="b_login">
+			<a href="index.html" id="one"><strong>返&nbsp;回</strong></a>		
+			</form>	
+			</div>
+			</div>	
+			</div>		
+	</body>
+</html>
